@@ -1,7 +1,14 @@
-import Image from "next/image";
-
+import Nav from '../components/Nav' // Import the Nav component
+import About from '../components/About';
+import HeroSection from '../components/HeroSection';
 export default function Home() {
   return (
-    <>Hello Nextjs</>
+    <div>
+      <Nav /> 
+<br></br>
+      <HeroSection/>
+
+      <About/>
+    </div>
   );
 }
